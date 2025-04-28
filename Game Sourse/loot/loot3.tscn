@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://b48och7egwrom"]
+
+[ext_resource type="Script" path="res://loot/loot_3.gd" id="1_80jal"]
+
+[node name="Loot3" type="Node2D"]
+script = ExtResource("1_80jal")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 263.0
+offset_top = 380.0
+offset_right = 629.0
+offset_bottom = 653.0
+theme_override_font_sizes/font_size = 100
+text = "loot3"

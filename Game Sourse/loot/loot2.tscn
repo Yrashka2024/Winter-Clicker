@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://b4u5sy7dk0o12"]
+
+[ext_resource type="Script" path="res://loot/loot_2.gd" id="1_xyyiw"]
+
+[node name="Loot2" type="Node2D"]
+script = ExtResource("1_xyyiw")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 197.0
+offset_top = 310.0
+offset_right = 475.0
+offset_bottom = 496.0
+theme_override_font_sizes/font_size = 100
+text = "loot2"
